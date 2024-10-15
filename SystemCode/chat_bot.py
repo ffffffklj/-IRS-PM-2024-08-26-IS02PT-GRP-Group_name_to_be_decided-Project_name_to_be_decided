@@ -17,7 +17,6 @@ from nltk.metrics.distance import jaccard_distance
 from nltk.util import ngrams
 
 def lower_casing(sentence):
-    # Quiz: How to implement this function without using str.lower()?
     new_sentence = sentence.lower()
     return new_sentence
 
