@@ -10,12 +10,13 @@
 
 ---
 
-### <<<<<<<<<<<<<<<<<<<< Start of Template >>>>>>>>>>>>>>>>>>>>
+### <<<<<<<<<<<<<<<<<<<< Start of Project >>>>>>>>>>>>>>>>>>>>
 
 ---
 
-## SECTION 1 : PROJECT TITLE
-## Travel Destinations Recommendation System -- TDRS
+
+## SECTION 1 : Travel Destinations Recommendation System -- TDRS
+
 
 <img src="SystemCode/clips/static/hdb-bto.png"
      style="float: left; margin-right: 0px;" />
@@ -23,7 +24,8 @@
 ---
 
 ## SECTION 2 : EXECUTIVE SUMMARY / PAPER ABSTRACT
-In today's digital age, travelers are constantly seeking personalized experiences to make their journeys memorable. The Travel Recommendation System (TRS) aims to address this demand by leveraging advanced algorithms and data analytics to provide customized travel suggestions. This system analyzes various data points, including tourists’ evaluations, users’ past behavior, and current trends, to offer tailored recommendations for destinations. By integrating existing evaluations and machine reasoning techniques, the TRS adapts to deliver more accurate and relevant suggestions over time. This project not only enhances user satisfaction but also helps travel businesses optimize their offerings, ultimately contributing to a more engaging and efficient travel planning experience.
+In today's digital age, travelers are constantly seeking personalized experiences to make their journeys memorable. The Travel Recommendation System (TRS) aims to address this demand by leveraging advanced algorithms and data analytics to provide customized travel suggestions. This system analyzes various data points from public dataset, including weather, cost of living index, and city type to offer tailored recommendations for destinations. By integrating existing evaluations and machine reasoning techniques, the TRS adapts to deliver more accurate and relevant suggestions over time. Besides to choosing from preset tags, our system supports natural language input by users. This function enable users to describe the expect destination to include more specific and personalized cases. This project not only enhances user satisfaction but also helps travel businesses optimize their offerings, ultimately contributing to a more engaging and efficient travel planning experience.
+However, due to the limit time and resources, our system still has room for improvement. We will discuss the it in the "Future Improvement" section.
 
 ---
 
@@ -33,7 +35,7 @@ In today's digital age, travelers are constantly seeking personalized experience
 | :------------ |:---------------:| :-----| :-----|
 | LONG ZHEN  | A0297168L | xxxxxxxxxx yyyyyyyyyy zzzzzzzzzz| A0297168L@nus.edu.sg |
 | ZHOU YUKANG  | A0296841R | xxxxxxxxxx yyyyyyyyyy zzzzzzzzzz| A0296841R@nus.edu.sg |
-| TAO ZHEN | A0296066U | xxxxxxxxxx yyyyyyyyyy zzzzzzzzzz| A0296066U@nus.edu.sg |
+| TAO ZHEN | A0296066U | Data Collection, Data Washing, Report and Presentation| A0296066U@nus.edu.sg |
 | AN DONGQI | A0296362W | xxxxxxxxxx yyyyyyyyyy zzzzzzzzzz| A0296362W@nus.edu.sg |
 
 ---
@@ -109,7 +111,7 @@ More reference video presentations [here](https://telescopeuser.wordpress.com/20
 
 ---
 
-### <<<<<<<<<<<<<<<<<<<< End of Template >>>>>>>>>>>>>>>>>>>>
+### <<<<<<<<<<<<<<<<<<<< End of Summary >>>>>>>>>>>>>>>>>>>>
 
 ---
 
