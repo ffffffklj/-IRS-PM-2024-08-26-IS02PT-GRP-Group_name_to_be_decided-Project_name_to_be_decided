@@ -14,7 +14,9 @@
 
 ---
 
+
 ## SECTION 1 : Travel Destinations Recommendation System -- TDRS
+
 
 <img src="SystemCode/clips/static/hdb-bto.png"
      style="float: left; margin-right: 0px;" />

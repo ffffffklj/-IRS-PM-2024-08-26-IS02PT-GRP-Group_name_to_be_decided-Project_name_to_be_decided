@@ -1,0 +1,370 @@
+City,City_type,Cost of Living Index,Living Cost Type,Transport,AvgTemp,Climate,Air quality level
+Aachen,Balanced,61.3,Medium,Good,8,Cold,Good
+Aarhus,Balanced,77.0,Expensive,Bad,10,Cold,Good
+Aberdeen,Balanced,65.1,Medium,Bad,7,Cold,Good
+Abu Dhabi,Humanities,59.3,Medium,Bad,32,Warm,Good
+Accra,Balanced,27.4,Cheap,Good,29,Warm,Good
+Addis Ababa,Balanced,46.7,Medium,Good,15,Temper,Good
+Adelaide,Balanced,81.7,Expensive,Good,8,Cold,Good
+Ahmedabad,Balanced,24.2,Cheap,Good,28,Warm,Bad
+Albuquerque,Balanced,69.8,Medium,Medium,20,Temper,Good
+Alexandria,Balanced,27.8,Cheap,Good,25,Temper,Medium
+Algiers,Balanced,32.3,Cheap,Good,24,Temper,Good
+Alicante,Balanced,50.4,Medium,Bad,26,Warm,Good
+Almaty,Balanced,35.9,Cheap,Good,17,Temper,Medium
+Amman,Nature,44.5,Medium,Bad,21,Temper,Good
+Amsterdam,Humanities,69.9,Medium,Medium,10,Cold,Good
+Ankara,Balanced,33.5,Cheap,Good,21,Temper,Good
+Antalya,Balanced,35.9,Cheap,Good,22,Temper,Good
+Antwerp,Balanced,67.1,Medium,Good,12,Cold,Medium
+Astana (Nur-Sultan),Balanced,33.6,Cheap,Bad,14,Cold,Good
+Athens,Balanced,55.9,Medium,Good,25,Temper,Good
+Atlanta,Humanities,80.3,Expensive,Good,22,Temper,Medium
+Auckland,Balanced,73.2,Medium,Good,10,Cold,Good
+Augsburg,Balanced,60.6,Medium,Good,12,Cold,Good
+Austin,Balanced,73.3,Medium,Medium,29,Warm,Good
+Baku,Balanced,33.5,Cheap,Good,22,Temper,Good
+Bali,Balanced,34.4,Cheap,Good,28,Warm,Good
+Bangalore,Balanced,29.4,Cheap,Good,21,Temper,Bad
+Bangkok,Humanities,42.4,Medium,Good,27,Warm,Good
+Banja Luka,Balanced,37.1,Cheap,Bad,18,Temper,Medium
+Barcelona,Balanced,53.7,Medium,Good,21,Temper,Medium
+Basel,Balanced,120.2,Expensive,Bad,11,Cold,Good
+Batumi,Balanced,34.9,Cheap,Medium,22,Temper,Good
+Beijing,Humanities,37.1,Cheap,Good,15,Temper,Good
+Beirut,Balanced,48.0,Medium,Bad,22,Temper,Good
+Belfast,Balanced,62.7,Medium,Good,9,Cold,Good
+Belgrade,Balanced,42.7,Medium,Medium,22,Temper,Good
+Belo Horizonte,Balanced,34.6,Cheap,Good,24,Temper,Good
+Bergen,Balanced,84.5,Expensive,Bad,7,Cold,Good
+Berlin,Balanced,65.7,Medium,Bad,13,Cold,Good
+Bern,Balanced,110.5,Expensive,Medium,8,Cold,Good
+Bhubaneswar,Balanced,21.8,Cheap,Good,27,Warm,Bad
+Bilbao,Balanced,54.2,Medium,Good,15,Temper,Good
+Birmingham,Nature,61.6,Medium,Good,9,Cold,Medium
+Bishkek,Balanced,28.1,Cheap,Bad,16,Temper,Good
+Bogota,Balanced,31.7,Cheap,Good,17,Temper,Good
+Boise,Balanced,66.9,Medium,Medium,13,Cold,Good
+Bologna,Balanced,65.3,Medium,Bad,17,Temper,Medium
+Bonn,Balanced,65.9,Medium,Good,12,Cold,Good
+Bordeaux,Balanced,71.2,Medium,Bad,15,Temper,Good
+Boston,Humanities,89.2,Expensive,Good,13,Cold,Good
+Braga,Balanced,44.2,Medium,Bad,27,Warm,Good
+Brasilia,Balanced,36.2,Cheap,Good,26,Warm,Good
+Brasov,Balanced,40.1,Medium,Bad,13,Cold,Good
+Bratislava,Balanced,52.0,Medium,Good,15,Temper,Good
+Bremen,Balanced,64.1,Medium,Good,11,Cold,Good
+Brighton,Balanced,68.8,Medium,Bad,11,Cold,Good
+Brisbane,Humanities,70.9,Medium,Good,17,Temper,Good
+Bristol,Balanced,64.4,Medium,Bad,9,Cold,Good
+Brno,Balanced,44.8,Medium,Good,14,Cold,Good
+Brussels,Balanced,67.3,Medium,Good,12,Cold,Good
+Bucharest,Balanced,41.3,Medium,Good,20,Temper,Good
+Budapest,Balanced,46.8,Medium,Good,18,Temper,Good
+Budva,Balanced,44.5,Medium,Medium,22,Temper,Good
+Buenos Aires,Nature,27.5,Cheap,Good,21,Temper,Good
+Burgas,Balanced,38.3,Cheap,Good,20,Temper,Medium
+Bursa,Balanced,32.6,Cheap,Good,20,Temper,Medium
+Cairo,Balanced,29.6,Cheap,Good,29,Warm,Good
+Calgary,Balanced,72.3,Medium,Good,6,Cold,Good
+Cali,Balanced,31.8,Cheap,Bad,25,Temper,Medium
+Cambridge,Balanced,69.2,Medium,Good,8,Cold,Good
+Canberra,Humanities,87.5,Expensive,Medium,10,Cold,Good
+Cape Town,Nature,34.6,Cheap,Bad,17,Temper,Good
+Caracas,Balanced,42.1,Medium,Good,27,Warm,Good
+Cardiff,Balanced,60.5,Medium,Medium,9,Cold,Good
+Casablanca,Balanced,32.7,Cheap,Bad,24,Temper,Medium
+Cebu,Balanced,37.5,Cheap,Good,26,Warm,Bad
+Chandigarh,Balanced,22.2,Cheap,Good,22,Temper,Bad
+Charlotte,Balanced,77.7,Expensive,Good,19,Temper,Medium
+Chengdu,Balanced,31.8,Cheap,Good,18,Temper,Bad
+Chennai,Nature,22.7,Cheap,Good,28,Warm,Bad
+Chiang Mai,Balanced,33.0,Cheap,Medium,23,Temper,Medium
+Chicago,Balanced,80.0,Expensive,Good,19,Temper,Medium
+Chisinau,Balanced,36.3,Cheap,Good,18,Temper,Medium
+Christchurch,Balanced,64.9,Medium,Bad,6,Cold,Good
+Cincinnati,Balanced,63.0,Medium,Good,18,Temper,Medium
+Cluj-Napoca,Balanced,41.6,Medium,Good,16,Temper,Good
+Coimbatore,Balanced,20.4,Cheap,Good,23,Temper,Bad
+Coimbra,Balanced,45.7,Medium,Medium,21,Temper,Good
+Cologne,Balanced,61.2,Medium,Good,13,Cold,Good
+Colombo,Balanced,35.2,Cheap,Good,25,Temper,Good
+Columbus,Balanced,71.0,Medium,Medium,16,Temper,Medium
+Copenhagen,Nature,79.0,Expensive,Good,12,Cold,Good
+Cork,Balanced,68.7,Medium,Bad,10,Cold,Good
+Coventry,Balanced,66.6,Medium,Medium,10,Cold,Good
+Curitiba,Balanced,34.4,Cheap,Medium,19,Temper,Good
+Dallas,Balanced,72.6,Medium,Good,28,Warm,Medium
+Debrecen,Balanced,40.0,Cheap,Good,21,Temper,Good
+Delft,Balanced,61.5,Medium,Medium,11,Cold,Good
+Delhi,Balanced,24.4,Cheap,Good,12,Cold,Bad
+Denver,Humanities,78.8,Expensive,Good,22,Temper,Good
+Dhaka,Balanced,27.9,Cheap,Good,27,Warm,Good
+Dnipro,Balanced,28.4,Cheap,Good,17,Temper,Medium
+Doha,Humanities,55.6,Medium,Good,32,Warm,Good
+Dresden,Balanced,61.7,Medium,Good,15,Temper,Good
+Dubai,Humanities,63.0,Medium,Good,31,Warm,Medium
+Dublin,Balanced,73.4,Medium,Bad,7,Cold,Good
+Durban,Balanced,32.8,Cheap,Medium,22,Temper,Medium
+Dusseldorf,Balanced,67.8,Medium,Good,13,Cold,Good
+Edinburgh,Balanced,69.7,Medium,Good,9,Cold,Good
+Edmonton,Balanced,64.6,Medium,Good,6,Cold,Good
+Eindhoven,Balanced,64.4,Medium,Medium,11,Cold,Good
+Erlangen,Balanced,66.3,Medium,Good,13,Cold,Good
+Espoo,Balanced,75.7,Expensive,Good,12,Cold,Good
+Essen,Balanced,67.8,Medium,Good,12,Cold,Medium
+Florence,Balanced,65.4,Medium,Good,16,Temper,Good
+Florianopolis,Balanced,38.4,Cheap,Bad,18,Temper,Good
+Fort Lauderdale,Balanced,76.1,Expensive,Bad,29,Warm,Good
+Fort Worth,Balanced,71.7,Medium,Bad,27,Warm,Medium
+Fortaleza,Balanced,36.2,Cheap,Good,36,Warm,Medium
+Frankfurt,Nature,63.9,Medium,Good,14,Cold,Good
+Freiburg im Breisgau,Balanced,66.3,Medium,Good,10,Cold,Good
+Galway,Balanced,62.4,Medium,Medium,9,Cold,Good
+Gdansk,Balanced,42.8,Medium,Good,15,Temper,Good
+Gdynia,Balanced,42.1,Medium,Good,15,Temper,Good
+Geneva,Nature,109.8,Expensive,Bad,8,Cold,Good
+Genoa,Balanced,62.3,Medium,Good,13,Cold,Medium
+Gent,Balanced,65.7,Medium,Good,11,Cold,Good
+Glasgow,Nature,66.2,Medium,Good,6,Cold,Good
+Gothenburg,Balanced,62.0,Medium,Medium,13,Cold,Good
+Graz,Balanced,65.2,Medium,Good,12,Cold,Good
+Groningen,Balanced,62.8,Medium,Medium,10,Cold,Good
+Guadalajara,Balanced,45.0,Medium,Medium,21,Temper,Medium
+Guangzhou,Humanities,35.1,Cheap,Good,25,Temper,Bad
+Gurgaon,Balanced,26.6,Cheap,Good,31,Warm,Bad
+Haifa,Balanced,66.0,Medium,Medium,23,Temper,Medium
+Halifax,Balanced,69.6,Medium,Good,13,Cold,Good
+Hamburg,Balanced,69.8,Medium,Medium,11,Cold,Good
+Hamilton,Balanced,137.4,Expensive,Bad,13,Cold,Good
+Hangzhou,Balanced,35.5,Cheap,Good,18,Temper,Bad
+Hanoi,Balanced,31.7,Cheap,Good,25,Temper,Good
+Hanover,Balanced,64.7,Medium,Good,12,Cold,Good
+Harare,Balanced,37.4,Cheap,Bad,23,Temper,Good
+Heidelberg,Balanced,64.6,Medium,Bad,12,Cold,Good
+Helsinki,Balanced,69.4,Medium,Good,12,Cold,Good
+Heraklion,Balanced,53.2,Medium,Bad,22,Temper,Good
+Ho Chi Minh City,Balanced,32.1,Cheap,Bad,26,Warm,Good
+Hong Kong,Balanced,71.5,Medium,Good,25,Temper,Bad
+Honolulu,Balanced,92.4,Expensive,Bad,25,Temper,Good
+Houston,Balanced,68.3,Medium,Good,28,Warm,Medium
+Hyderabad,Balanced,24.2,Cheap,Good,24,Temper,Bad
+Iasi,Balanced,38.8,Cheap,Bad,18,Temper,Medium
+Indianapolis,Nature,71.3,Medium,Bad,19,Temper,Medium
+Isfahan (Esfahan),Balanced,24.9,Cheap,Good,22,Temper,Bad
+Islamabad,Balanced,20.3,Cheap,Good,20,Temper,Good
+Istanbul,Nature,36.9,Cheap,Good,23,Temper,Medium
+Izmir,Balanced,34.6,Cheap,Good,20,Temper,Medium
+Jacksonville,Balanced,68.9,Medium,Good,22,Temper,Medium
+Jaipur,Balanced,22.5,Cheap,Good,29,Warm,Bad
+Jakarta,Balanced,32.0,Cheap,Good,28,Warm,Bad
+Jeddah (Jiddah),Balanced,47.6,Medium,Bad,32,Warm,Medium
+Jerusalem,Balanced,66.1,Medium,Bad,21,Temper,Good
+Johannesburg,Nature,36.1,Cheap,Good,27,Warm,Medium
+Kaliningrad,Balanced,29.0,Cheap,Medium,19,Temper,Good
+Kaohsiung,Balanced,47.5,Medium,Good,26,Warm,Bad
+Karachi,Balanced,19.3,Cheap,Good,29,Warm,Bad
+Kathmandu,Balanced,27.7,Cheap,Good,16,Temper,Good
+Katowice,Balanced,42.0,Medium,Bad,16,Temper,Medium
+Kaunas,Balanced,45.9,Medium,Good,17,Temper,Good
+Kazan,Balanced,29.3,Cheap,Medium,3,Cold,Good
+Kharkiv,Balanced,28.7,Cheap,Good,16,Temper,Medium
+Kiev (Kyiv),Balanced,32.3,Cheap,Good,11,Cold,Medium
+Kigali,Balanced,27.2,Cheap,Bad,18,Temper,Good
+Kochi,Balanced,20.6,Cheap,Good,25,Temper,Medium
+Kolkata,Balanced,21.6,Cheap,Good,26,Warm,Bad
+Kosice,Balanced,46.2,Medium,Medium,15,Temper,Good
+Krakow (Cracow),Balanced,44.8,Medium,Good,17,Temper,Medium
+Krasnodar,Balanced,28.6,Cheap,Bad,17,Temper,Good
+Kuala Lumpur,Humanities,34.6,Cheap,Good,26,Warm,Good
+Kuwait City,Humanities,44.6,Medium,Medium,31,Warm,Good
+Lagos,Balanced,21.9,Cheap,Good,28,Warm,Bad
+Lahore,Balanced,19.7,Cheap,Good,27,Warm,Bad
+Las Vegas,Balanced,70.8,Medium,Good,25,Temper,Medium
+Lausanne,Balanced,117.7,Expensive,Good,13,Cold,Good
+Leeds,Nature,62.6,Medium,Bad,7,Cold,Good
+Leipzig,Balanced,61.9,Medium,Good,13,Cold,Good
+Leuven,Balanced,58.3,Medium,Bad,12,Cold,Good
+Lima,Humanities,34.4,Cheap,Good,18,Temper,Good
+Limassol,Balanced,59.2,Medium,Good,24,Temper,Good
+Linz,Balanced,67.1,Medium,Good,12,Cold,Good
+Lisbon,Balanced,51.1,Medium,Good,21,Temper,Good
+Liverpool,Balanced,66.4,Medium,Good,9,Cold,Good
+Ljubljana,Balanced,53.2,Medium,Good,17,Temper,Good
+Lodz,Balanced,41.3,Medium,Good,16,Temper,Medium
+London,Balanced,80.1,Expensive,Good,11,Cold,Good
+Los Angeles,Humanities,85.1,Expensive,Medium,18,Temper,Medium
+Louisville,Balanced,69.2,Medium,Bad,21,Temper,Medium
+Lucknow (Lakhnau),Balanced,20.8,Cheap,Good,27,Warm,Bad
+Luxembourg,Balanced,65.2,Medium,Medium,12,Cold,Good
+Lviv,Balanced,28.6,Cheap,Bad,19,Temper,Medium
+Lyon,Balanced,68.9,Medium,Good,13,Cold,Good
+Maastricht,Balanced,67.4,Medium,Good,12,Cold,Good
+Madrid,Nature,52.7,Medium,Good,19,Temper,Good
+Malaga,Balanced,47.8,Medium,Good,22,Temper,Good
+Malmo,Balanced,64.6,Medium,Good,12,Cold,Good
+Manama,Balanced,52.5,Medium,Good,32,Warm,Good
+Manchester,Nature,67.0,Medium,Good,9,Cold,Medium
+Manila,Nature,37.6,Cheap,Good,26,Warm,Good
+Mannheim,Balanced,65.5,Medium,Good,14,Cold,Good
+Marrakech,Balanced,31.9,Cheap,Bad,29,Warm,Medium
+Medellin,Balanced,32.7,Cheap,Good,22,Temper,Medium
+Melbourne,Humanities,70.2,Medium,Good,7,Cold,Good
+Mexico City,Nature,47.3,Medium,Good,13,Cold,Bad
+Miami,Balanced,77.7,Expensive,Good,29,Warm,Good
+Milan,Balanced,69.7,Medium,Good,15,Temper,Bad
+Minneapolis,Balanced,75.0,Medium,Medium,16,Temper,Good
+Minsk,Balanced,28.2,Cheap,Good,14,Cold,Good
+Mississauga,Balanced,67.1,Medium,Good,12,Cold,Good
+Monterrey,Balanced,51.8,Medium,Good,25,Temper,Medium
+Montevideo,Balanced,54.4,Medium,Good,19,Temper,Good
+Montpellier,Balanced,65.3,Medium,Medium,18,Temper,Good
+Montreal,Balanced,65.5,Medium,Good,10,Cold,Good
+Moscow,Humanities,35.7,Cheap,Good,8,Cold,Good
+Mumbai,Nature,25.2,Cheap,Good,28,Warm,Bad
+Munich,Humanities,66.7,Medium,Good,12,Cold,Good
+Muscat,Humanities,45.6,Medium,Good,30,Warm,Good
+Nairobi,Nature,25.9,Cheap,Good,22,Temper,Good
+Nanjing,Balanced,31.6,Cheap,Good,19,Temper,Bad
+Naples,Balanced,55.7,Medium,Bad,23,Temper,Medium
+Nashville,Balanced,77.0,Expensive,Bad,23,Temper,Medium
+New Orleans,Nature,76.6,Expensive,Bad,27,Warm,Medium
+New York,Balanced,100.0,Expensive,Good,13,Cold,Good
+Newcastle upon Tyne,Balanced,63.0,Medium,Good,8,Cold,Good
+Nicosia,Balanced,53.6,Medium,Bad,24,Temper,Good
+Nis,Balanced,33.8,Cheap,Bad,28,Warm,Good
+Nizhny Novgorod,Balanced,29.0,Cheap,Good,4,Cold,Medium
+Noida,Balanced,25.2,Cheap,Good,28,Warm,Bad
+Nottingham,Balanced,64.8,Medium,Good,9,Cold,Good
+Novi Sad,Balanced,40.0,Cheap,Medium,22,Temper,Good
+Novosibirsk,Balanced,29.6,Cheap,Good,-1,Cold,Medium
+Nuremberg,Balanced,64.6,Medium,Good,13,Cold,Good
+Odessa (Odesa),Balanced,29.3,Cheap,Good,19,Temper,Medium
+Oklahoma City,Balanced,72.1,Medium,Bad,24,Temper,Medium
+Orlando,Balanced,72.1,Medium,Bad,23,Temper,Good
+Osaka,Balanced,47.2,Medium,Medium,17,Temper,Medium
+Osijek,Balanced,43.9,Medium,Medium,21,Temper,Good
+Oslo,Balanced,80.0,Expensive,Good,6,Cold,Good
+Ostrava,Balanced,48.3,Medium,Good,15,Temper,Medium
+Ottawa,Balanced,73.3,Medium,Good,8,Cold,Good
+Oxford,Balanced,72.6,Medium,Bad,10,Cold,Good
+Padova,Balanced,60.9,Medium,Bad,17,Temper,Good
+Panama City,Balanced,49.1,Medium,Good,29,Warm,Good
+Paphos,Balanced,54.0,Medium,Bad,24,Temper,Good
+Paris,Humanities,75.4,Expensive,Good,13,Cold,Medium
+Parma,Balanced,62.4,Medium,Medium,16,Temper,Good
+Penang,Balanced,32.1,Cheap,Bad,26,Warm,Medium
+Perm,Balanced,27.1,Cheap,Medium,-4,Cold,Medium
+Perth,Balanced,75.6,Expensive,Good,21,Temper,Good
+Philadelphia,Nature,76.6,Expensive,Good,14,Cold,Medium
+Phnom Penh,Balanced,42.0,Medium,Bad,27,Warm,Good
+Phoenix,Balanced,69.0,Medium,Bad,27,Warm,Medium
+Phuket,Balanced,39.8,Cheap,Medium,26,Warm,Medium
+Pittsburgh,Humanities,76.1,Expensive,Good,13,Cold,Medium
+Plovdiv,Balanced,37.0,Cheap,Bad,16,Temper,Good
+Plzen,Balanced,47.2,Medium,Good,14,Cold,Good
+Podgorica,Balanced,39.7,Cheap,Medium,14,Cold,Good
+Port of Spain,Balanced,58.1,Medium,Bad,29,Warm,Medium
+Portland,Balanced,82.3,Expensive,Good,9,Cold,Good
+Porto,Balanced,45.6,Medium,Good,19,Temper,Good
+Porto Alegre,Balanced,35.9,Cheap,Medium,19,Temper,Good
+Poznan,Balanced,42.1,Medium,Medium,16,Temper,Good
+Prague,Humanities,51.5,Medium,Medium,15,Temper,Good
+Pretoria,Balanced,34.2,Cheap,Good,28,Warm,Good
+Pristina,Balanced,32.4,Cheap,Bad,16,Temper,Good
+Pune,Balanced,25.1,Cheap,Good,22,Temper,Medium
+Quebec City,Balanced,70.4,Medium,Bad,10,Cold,Good
+Queretaro (Santiago de Querétaro),Balanced,46.0,Medium,Medium,13,Cold,Medium
+Quito,Balanced,35.5,Cheap,Good,18,Temper,Good
+Rabat,Balanced,32.6,Cheap,Good,22,Temper,Good
+Raleigh,Balanced,77.3,Expensive,Medium,18,Temper,Good
+Reykjavik,Balanced,88.5,Expensive,Good,3,Cold,Good
+Riga,Balanced,52.5,Medium,Good,16,Temper,Good
+Rijeka,Balanced,48.1,Medium,Bad,18,Temper,Good
+Rio de Janeiro,Nature,38.7,Cheap,Good,23,Temper,Medium
+Riyadh,Humanities,51.2,Medium,Good,33,Warm,Good
+Rome,Nature,57.9,Medium,Good,22,Temper,Good
+Rostov-on-Don (Rostov-na-donu),Balanced,28.5,Cheap,Bad,18,Temper,Medium
+Rotterdam,Balanced,61.9,Medium,Good,11,Cold,Good
+Sacramento,Balanced,83.7,Expensive,Good,16,Temper,Medium
+Saint Louis,Balanced,66.5,Medium,Bad,23,Temper,Medium
+Saint Petersburg,Balanced,31.3,Cheap,Good,10,Cold,Good
+Salt Lake City,Balanced,70.3,Medium,Good,22,Temper,Good
+Salzburg,Balanced,70.9,Medium,Bad,9,Cold,Good
+Samara,Balanced,29.2,Cheap,Medium,4,Cold,Medium
+San Antonio,Balanced,67.5,Medium,Medium,33,Warm,Medium
+San Diego,Balanced,86.4,Expensive,Good,19,Temper,Good
+San Francisco,Balanced,92.5,Expensive,Good,12,Cold,Good
+San Jose,Balanced,90.5,Expensive,Good,19,Temper,Unknown
+San Juan,Balanced,73.2,Medium,Medium,22,Temper,Good
+Santiago,Nature,43.1,Medium,Good,20,Temper,Good
+Santo Domingo,Balanced,45.2,Medium,Good,33,Warm,Good
+Sao Paulo,Nature,40.0,Cheap,Good,25,Temper,Good
+Sarajevo,Balanced,36.8,Cheap,Bad,8,Cold,Good
+Saskatoon,Balanced,69.7,Medium,Bad,10,Cold,Good
+Seattle,Balanced,87.7,Expensive,Good,11,Cold,Good
+Seoul,Humanities,70.3,Medium,Good,15,Temper,Good
+Seville (Sevilla),Balanced,50.8,Medium,Bad,22,Temper,Good
+Shanghai,Humanities,42.1,Medium,Bad,20,Temper,Bad
+Sharjah,Balanced,46.5,Medium,Bad,31,Warm,Medium
+Sheffield,Balanced,63.4,Medium,Bad,8,Cold,Good
+Shenzhen,Balanced,36.9,Cheap,Good,25,Temper,Bad
+Sibiu,Balanced,37.5,Cheap,Medium,18,Temper,Good
+Singapore,Balanced,81.9,Expensive,Good,28,Warm,Good
+Skopje,Balanced,36.3,Cheap,Bad,20,Temper,Good
+Sliema,Balanced,59.5,Medium,Bad,24,Temper,Good
+Sofia,Balanced,41.6,Medium,Good,16,Temper,Good
+Split,Balanced,45.1,Medium,Bad,22,Temper,Good
+Spokane,Balanced,72.4,Medium,Bad,7,Cold,Good
+Stavanger,Balanced,82.5,Expensive,Bad,9,Cold,Good
+Stockholm,Nature,68.8,Medium,Good,14,Cold,Good
+Stuttgart,Balanced,61.7,Medium,Good,11,Cold,Good
+Surat,Balanced,22.1,Cheap,Good,25,Temper,Bad
+Suzhou,Balanced,61.6,Medium,Good,18,Temper,Bad
+Sydney,Nature,75.9,Expensive,Good,14,Cold,Good
+Szczecin,Balanced,40.1,Medium,Good,15,Temper,Good
+Szeged,Balanced,40.6,Medium,Good,22,Temper,Good
+Taichung,Balanced,49.9,Medium,Good,21,Temper,Medium
+Taipei,Humanities,52.0,Medium,Bad,22,Temper,Medium
+Tallinn,Balanced,55.6,Medium,Bad,13,Cold,Good
+Tampa,Nature,82.0,Expensive,Bad,22,Temper,Good
+Tampere,Balanced,61.7,Medium,Bad,11,Cold,Good
+Tangier,Balanced,30.7,Cheap,Medium,22,Temper,Medium
+Tartu,Balanced,54.5,Medium,Bad,24,Temper,Good
+Tashkent,Balanced,28.6,Cheap,Good,21,Temper,Good
+Tbilisi,Balanced,39.2,Cheap,Good,22,Temper,Good
+Tehran,Balanced,29.7,Cheap,Good,24,Temper,Good
+Tel Aviv-Yafo,Balanced,72.5,Medium,Good,25,Temper,Medium
+The Hague (Den Haag),Balanced,59.6,Medium,Medium,25,Temper,Good
+Thessaloniki,Balanced,55.5,Medium,Good,23,Temper,Medium
+Timisoara,Balanced,38.7,Cheap,Good,21,Temper,Good
+Tirana,Balanced,44.6,Medium,Good,18,Temper,Good
+Tokyo,Humanities,57.4,Medium,Good,17,Temper,Good
+Toronto,Nature,71.6,Medium,Good,13,Cold,Good
+Trondheim,Balanced,86.3,Expensive,Medium,3,Cold,Good
+Tucson,Balanced,78.2,Expensive,Bad,24,Temper,Medium
+Tunis,Balanced,30.4,Cheap,Good,29,Warm,Good
+Turin,Balanced,59.6,Medium,Good,15,Temper,Medium
+Ufa,Balanced,28.8,Cheap,Bad,4,Cold,Medium
+Ulaanbaatar,Balanced,35.2,Cheap,Bad,1,Cold,Good
+Uppsala,Balanced,63.1,Medium,Medium,13,Cold,Good
+Utrecht,Balanced,64.3,Medium,Medium,10,Cold,Good
+Vadodara,Balanced,22.9,Cheap,Good,26,Warm,Bad
+Valencia,Balanced,45.1,Medium,Medium,28,Warm,Good
+Vancouver,Nature,74.4,Medium,Good,10,Cold,Good
+Varna,Balanced,38.4,Cheap,Bad,21,Temper,Good
+Victoria,Balanced,76.7,Expensive,Bad,17,Temper,Good
+Vienna,Balanced,66.2,Medium,Good,14,Cold,Good
+Vigo,Balanced,49.0,Medium,Bad,15,Temper,Good
+Vilnius,Balanced,50.2,Medium,Good,18,Temper,Good
+Vladivostok,Balanced,33.2,Cheap,Medium,11,Cold,Medium
+Warsaw,Humanities,46.0,Medium,Good,20,Temper,Good
+Washington,Balanced,84.8,Expensive,Good,15,Temper,Good
+Wellington,Nature,73.3,Medium,Good,7,Cold,Good
+Winnipeg,Balanced,66.0,Medium,Good,14,Cold,Good
+Wroclaw,Balanced,43.1,Medium,Good,14,Cold,Good
+Wuhan,Humanities,32.7,Cheap,Good,20,Temper,Bad
+Yekaterinburg,Balanced,29.8,Cheap,Good,-3,Cold,Medium
+Yerevan,Balanced,40.2,Medium,Medium,19,Temper,Good
+Zagreb,Balanced,49.7,Medium,Good,18,Temper,Good
+Zurich,Nature,118.3,Expensive,Bad,9,Cold,Good
