@@ -33,10 +33,10 @@ However, due to the limit time and resources, our system still has room for impr
 
 | Official Full Name  | Student ID (MTech Applicable)  | Work Items (Who Did What) | Email (Optional) |
 | :------------ |:---------------:| :-----| :-----|
-| LONG ZHEN  | A0297168L | xxxxxxxxxx yyyyyyyyyy zzzzzzzzzz| A0297168L@nus.edu.sg |
-| ZHOU YUKANG  | A0296841R | xxxxxxxxxx yyyyyyyyyy zzzzzzzzzz| A0296841R@nus.edu.sg |
-| TAO ZHEN | A0296066U | Data Collection, Data Washing, Report and Presentation| A0296066U@nus.edu.sg |
-| AN DONGQI | A0296362W | xxxxxxxxxx yyyyyyyyyy zzzzzzzzzz| A0296362W@nus.edu.sg |
+| LONG ZHEN  | A0297168L | Model Training, Algorithm Design| A0297168L@u.nus.edu |
+| ZHOU YUKANG  | A0296841R | Back-end Development, Chatbot Design| A0296841R@u.nus.edu |
+| TAO ZHEN | A0296066U | Data Collection, Data Washing, Report and Presentation| A0296066U@u.nus.edu |
+| AN DONGQI | A0296362W | Front-end Development, Reasoning Logic Design| A0296362W@u.nus.edu |
 
 ---
 
@@ -111,7 +111,7 @@ More reference video presentations [here](https://telescopeuser.wordpress.com/20
 
 ---
 
-### <<<<<<<<<<<<<<<<<<<< End of Summary >>>>>>>>>>>>>>>>>>>>
+### <<<<<<<<<<<<<<<<<<<< End of Project >>>>>>>>>>>>>>>>>>>>
 
 ---
 
