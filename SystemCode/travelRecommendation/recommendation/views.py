@@ -45,6 +45,11 @@ class InformationView(View):
     # get the information from the buttons and update the class info
     def post(self, request):
         global info
+        info.type = []
+        info.temp = []
+        info.price = []
+        info.transportation = []
+        info.air = []
         if request.GET.get("type") != "":
             info.type.append(request.GET.get("type"))
         if request.GET.get("temp") != "":
