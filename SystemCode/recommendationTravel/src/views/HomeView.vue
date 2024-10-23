@@ -1,5 +1,5 @@
 <script setup>
-import {ref} from 'vue'
+import {computed, ref} from 'vue'
 import qs from 'qs'
 import requestUtil from '@/utils/request'
 import image_robot from '@/assets/robot.png';
@@ -34,7 +34,7 @@ const city = ref({
 const typeOptions = [
   {
     value: 'Humanities',
-    label: 'A city with a rich historical heritage.',
+    label: 'A city with rich historical heritage.',
   },
   {
     value: 'Nature',
@@ -42,7 +42,7 @@ const typeOptions = [
   },
   {
     value: 'Balanced',
-    label: 'A comprehensive city with various aspects.',
+    label: 'A comprehensive city.',
   },
 ]
 
@@ -68,7 +68,7 @@ const priceOptions = [
 const transportationOptions = [
   {
     value: 'Good',
-    label: 'Yes, a city with good transportation is essential.',
+    label: 'Yes, good transportation is essential.',
   },
   {
     value: 'Good Medium Bad',
@@ -98,7 +98,7 @@ const tempOptions = [
 const airOptions = [
   {
     value: 'Good',
-    label: 'Yes, a city with high air quality is necessary.',
+    label: 'Yes, high air quality is necessary.',
   },
   {
     value: 'Medium Bad Unknown',
@@ -151,6 +151,78 @@ const getOutput = async () => {
   }
 }
 
+const requireImages = require.context('@/assets/cities', false, /\.jpg$/);
+
+const city_img1 = computed(() => {
+  try {
+    const imageKey = `./${city.value.option1}.jpg`;
+
+    if (requireImages.keys().includes(imageKey)) {
+      return requireImages(imageKey);
+    }
+    return null;
+  } catch (e) {
+    console.error(`Error loading image: ${city.value.option1}`, e);
+    return null;
+  }
+});
+
+const city_img2 = computed(() => {
+  try {
+    const imageKey = `./${city.value.option2}.jpg`;
+
+    if (requireImages.keys().includes(imageKey)) {
+      return requireImages(imageKey);
+    }
+    return null;
+  } catch (e) {
+    console.error(`Error loading image: ${city.value.option2}`, e);
+    return null;
+  }
+});
+
+const city_img3 = computed(() => {
+  try {
+    const imageKey = `./${city.value.option3}.jpg`;
+
+    if (requireImages.keys().includes(imageKey)) {
+      return requireImages(imageKey);
+    }
+    return null;
+  } catch (e) {
+    console.error(`Error loading image: ${city.value.option3}`, e);
+    return null;
+  }
+});
+
+const city_img4 = computed(() => {
+  try {
+    const imageKey = `./${city.value.option4}.jpg`;
+
+    if (requireImages.keys().includes(imageKey)) {
+      return requireImages(imageKey);
+    }
+    return null;
+  } catch (e) {
+    console.error(`Error loading image: ${city.value.option4}`, e);
+    return null;
+  }
+});
+
+const city_img5 = computed(() => {
+  try {
+    const imageKey = `./${city.value.option5}.jpg`;
+
+    if (requireImages.keys().includes(imageKey)) {
+      return requireImages(imageKey);
+    }
+    return null;
+  } catch (e) {
+    console.error(`Error loading image: ${city.value.option5}`, e);
+    return null;
+  }
+});
+
 </script>
 
 <template>
@@ -159,7 +231,7 @@ const getOutput = async () => {
       <el-header class="title_intro">
         <!--title-->
         <el-form>
-          <el-text class="title">Welcome to Travel Recommendation!</el-text>
+          <el-text class="title">Welcome to Travel Destinations Recommendation!</el-text>
         </el-form>
         <!--introduction-->
         <el-form>
@@ -182,7 +254,7 @@ const getOutput = async () => {
                 </el-select>
               </el-form>
               <el-form class="select">
-                <el-text class="text_select">What are your requirements for the consumption level in a city?</el-text>
+                <el-text class="text_select">What are your requirements for the consumption level in city?</el-text>
                 <el-select v-model="info.price" class="box_select" placeholder="Select" size="large">
                   <el-option v-for="item in priceOptions" :key="item.value" :label="item.label" :value="item.value"/>
                 </el-select>
@@ -196,7 +268,7 @@ const getOutput = async () => {
                 </el-select>
               </el-form>
               <el-form class="select">
-                <el-text class="text_select">What is your expectation for the temperature in cities?</el-text>
+                <el-text class="text_select">What is your expectation for the temperature in city?</el-text>
                 <el-select v-model="info.temp" class="box_select" placeholder="Select" size="large">
                   <el-option v-for="item in tempOptions" :key="item.value" :label="item.label" :value="item.value"/>
                 </el-select>
@@ -252,16 +324,51 @@ const getOutput = async () => {
           </el-text>
         </el-form>
         <el-form class="recommendation">
-          <el-text class="cities" v-if="city.option1">{{ city.option1 }}</el-text>
-          <el-text class="text_describe" v-if="city.option1">{{ city.description1 }}</el-text>
-          <el-text class="cities" v-if="city.option2">{{ city.option2 }}</el-text>
-          <el-text class="text_describe" v-if="city.option2">{{ city.description2 }}</el-text>
-          <el-text class="cities" v-if="city.option3">{{ city.option3 }}</el-text>
-          <el-text class="text_describe" v-if="city.option3">{{ city.description3 }}</el-text>
-          <el-text class="cities" v-if="city.option4">{{ city.option4 }}</el-text>
-          <el-text class="text_describe" v-if="city.option4">{{ city.description4 }}</el-text>
-          <el-text class="cities" v-if="city.option5">{{ city.option5 }}</el-text>
-          <el-text class="text_describe" v-if="city.option5">{{ city.description5 }}</el-text>
+          <el-form class="city">
+            <el-form class="city_text">
+              <el-text class="city_title" v-if="city.option1">{{ city.option1 }}</el-text>
+              <el-text class="city_describe" v-if="city.option1">{{ city.description1 }}</el-text>
+            </el-form>
+            <el-form class="city_img">
+              <el-image v-if="city.option1" :src="city_img1"/>
+            </el-form>
+          </el-form>
+          <el-form class="city">
+            <el-form class="city_text">
+              <el-text class="city_title" v-if="city.option2">{{ city.option2 }}</el-text>
+              <el-text class="city_describe" v-if="city.option2">{{ city.description2 }}</el-text>
+            </el-form>
+            <el-form class="city_img">
+              <el-image v-if="city.option2" :src="city_img2"/>
+            </el-form>
+          </el-form>
+          <el-form class="city">
+            <el-form class="city_text">
+              <el-text class="city_title" v-if="city.option3">{{ city.option3 }}</el-text>
+              <el-text class="city_describe" v-if="city.option3">{{ city.description3 }}</el-text>
+            </el-form>
+            <el-form class="city_img">
+              <el-image v-if="city.option3" :src="city_img3"/>
+            </el-form>
+          </el-form>
+          <el-form class="city">
+            <el-form class="city_text">
+              <el-text class="city_title" v-if="city.option4">{{ city.option4 }}</el-text>
+              <el-text class="city_describe" v-if="city.option4">{{ city.description4 }}</el-text>
+            </el-form>
+            <el-form class="city_img">
+              <el-image v-if="city.option4" :src="city_img4"/>
+            </el-form>
+          </el-form>
+          <el-form class="city">
+            <el-form class="city_text">
+              <el-text class="city_title" v-if="city.option5">{{ city.option5 }}</el-text>
+              <el-text class="city_describe" v-if="city.option5">{{ city.description5 }}</el-text>
+            </el-form>
+            <el-form class="city_img">
+              <el-image v-if="city.option5" :src="city_img5"/>
+            </el-form>
+          </el-form>
         </el-form>
       </el-form>
       <el-footer class="designer">Designed by Team RushB -- NUS-ISS-GROUP 1</el-footer>
@@ -273,7 +380,9 @@ const getOutput = async () => {
 
 .background_colour {
   background-color: rgba(255, 255, 255, 0.8);
-  padding: 50px;
+  padding-top: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
   border-radius: 10px;
   color: black;
 }
@@ -301,14 +410,17 @@ const getOutput = async () => {
 .title {
   font-family: 'Arial Black';
   font-size: 35px;
+  color: black;
 }
 
 .intro {
   font-size: 20px;
+  color: black;
 }
 
 .text_general {
   font-size: 20px;
+  color: black;
 }
 
 .bot {
@@ -323,6 +435,7 @@ const getOutput = async () => {
 
 .text_bot {
   font-size: 20px;
+  color: black;
   align-items: center;
 }
 
@@ -344,10 +457,11 @@ const getOutput = async () => {
 .text_select {
   width: 500px;
   text-align: left;
+  color: black;
 }
 
 .box_select {
-  width: 300px;
+  width: 330px;
   text-align: right;
 }
 
@@ -367,16 +481,33 @@ const getOutput = async () => {
 
 .text_recommend {
   font-size: 30px;
+  color: black;
 }
 
-.text_describe {
-  text-align: left;
+.city {
+  padding-top: 20px;
+  display: flex;
 }
 
-.cities {
-  padding: 20px;
+.city_text {
+  display: flex;
+  flex-direction: column;
+  width: 2000px;
+}
+
+.city_title {
   font-size: 30px;
+  color: black;
   font-family: 'Arial Black';
+}
+
+.city_describe {
+  font-size: 15px;
+  color: black;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 100px;
+  text-align: left;
 }
 
 .designer {
