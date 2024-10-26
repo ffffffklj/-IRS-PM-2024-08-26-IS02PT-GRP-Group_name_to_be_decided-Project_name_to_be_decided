@@ -30,7 +30,7 @@ However, due to the limit time and resources, our system still has room for impr
 
 ## SECTION 4 : VIDEO OF SYSTEM MODELLING & USE CASE DEMO
 
-`Refer videos at Github Folder: Video`
+`Refer to videos at Github Folder: Video`
 
 ---
 
