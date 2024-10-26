@@ -55,7 +55,7 @@ More reference video presentations [here](https://telescopeuser.wordpress.com/20
 
 ### Run the system directly (recommended):
 
-> download travelRecommendation.zip and unzip
+> download travelRecommendation.zip in Releases and unzip
 
 > open the terminal in the directory containing "_internal" and "travelRecommendation.exe"
 
