@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 
-let baseUrl = "http://localhost:8000/";
+let baseUrl = "http://localhost:8080/";
 
 const httpService = axios.create({
     baseURL: baseUrl,
