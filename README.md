@@ -53,9 +53,18 @@ More reference video presentations [here](https://telescopeuser.wordpress.com/20
 
 `Refer to appendix <Installation & User Guide> in project report at Github Folder: ProjectReport`
 
+### Run the system directly (recommended):
+
+> download travelRecommendation.zip and unzip
+
+> open the terminal in the directory containing "_internal" and "travelRecommendation.exe"
+
+> .\travelRecommendation.exe runserver 127.0.0.1:8080 --noreload
+
+> Go to URL using web browser http://127.0.0.1:8080/
+
 
 ### To run the system in other/local machine:
-### Install additional necessary libraries. This application works in python 2 only.
 
 > git clone https://github.com/ffffffklj/IRS-PM-2024-08-26-IS02PT-GRP-RushB-Travel-Destinations-Recommendation-System-TDRS-.git
 
@@ -73,7 +82,7 @@ More reference video presentations [here](https://telescopeuser.wordpress.com/20
 
 > npm run serve
 
-> Go to URL using web browser http://localhost:8080/
+> Go to URL using web browser http://127.0.0.1:8080/
 ---
 ## SECTION 6 : PROJECT REPORT / PAPER
 
